@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="images/logo mdp.jpeg" alt="" width="20%"> <br>
+    <p>Kampus Inovasi</p> <br>
+    
+    <a href="home.html">Home</a> 
+    <a href="profil.html">Profil</a> |
+    <a href="PMB.html">PMB</a> 
+    <a href="hubungi.html">Hubungi Kami</a> 
+    <p></p>
+    <h1>Penerimaan Mahasiswa Baru</h1> <br>
+    <p>Universitas MDP membuka penerimaan mahasiswa baru untuk tahun akademik 2025/2026. Silahkan daftar segera!</p> <br>
+    <form action="proses.php" method="post">
+        Nama Lengkap <br>
+        <input type="text" name="nama" id="nama" 
+        required> <br>
+        <p></p>
+        Jenis Kelamin <br>
+        <input type="radio" name="jk" id="jkl" value="L" checked> Laki-laki <br>
+        <input type="radio" name="jk" id="jkp" value="P"> Perempuan <br>
+        <p></p>
+        Nomor HP <br>
+        <input type="tel" name="nomorhp" id="nomorhp">
+        <p></p>
+        Email <br>
+        <input type="email" name="email" id="email" required> <br>
+        <p></p>
+        Alamat <br>
+        <textarea name="alamat" id="alamat"></textarea> <br>
+        <p></p>
+        Pilihan Program Studi <br>
+        <select name="programstudi" id="programstudi">
+            <option value="SI">Sistem informasi (SI)</option>
+            <option value="TI">Teknik Informatika (TI)</option>
+            <option value="AK">Akutansi (AK)</option>
+            <option value="MJ">Manajemen (MJ)</option>
+            <option value="MI">Manajemen Informatika (MI)</option>
+            <option value="TE">Teknik Elektro (TE)</option>
+        </select>  <br>
+        <p></p>
+        <button type="submit">Daftar</button>
+
+        <p></p>
+        ©2025 Universitas MDP
+
+
+
+
+    
+</body>
+</html>
